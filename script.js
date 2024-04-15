@@ -42,6 +42,7 @@ window.addEventListener("load", () => {
 		if (e.key === 'Enter') {
 			const task = new Task(taskInput.value);
 			task.createInput(group);
+			taskInput.value = '';
 		}
 	});
 

@@ -7,8 +7,10 @@ body {
 
 input, input::placeholder{
     color: white !important;
+    border-color: rgb(80, 90, 99) !important;
 }
 
 .input-group-text, .form-check-input {
     background-color: rgb(33, 37, 41);
+    border-color: rgb(80, 90, 99) !important;
 }
