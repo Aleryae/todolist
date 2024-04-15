@@ -1,0 +1,14 @@
+body {
+    color: white;
+    min-height:100%;
+    background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+    background-attachment: fixed;
+}
+
+input, input::placeholder{
+    color: white !important;
+}
+
+.input-group-text, .form-check-input {
+    background-color: rgb(33, 37, 41);
+}
